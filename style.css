@@ -14,9 +14,10 @@ body {
   place-items: center;
 }
 main {
-  background: url(images/background.svg);
-  width: 375px;
-  height: 812px;
+  background: url(images/background.svg) no-repeat center/cover;
+  width: 100vw;
+  min-height: 812px;
+  height: 100vh;
 }
 .container {
   max-width: 250px;
@@ -65,3 +66,8 @@ ul {
   gap: 0.5rem;
   justify-content: center;
 }
+li:hover {
+  border: 0px solid rgba(187, 23, 23, 0.287);
+  transform: scale(1.5);
+  box-shadow: 0px 5px 15px rgba(248, 247, 247, 0.6);
+
