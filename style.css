@@ -13,6 +13,7 @@ body {
   display: grid;
   place-items: center;
 }
+
 main {
   background: url(images/background.svg) no-repeat center/cover;
   width: 100vw;
@@ -65,10 +66,14 @@ ul {
   display: flex;
   gap: 0.5rem;
   justify-content: center;
+  cursor: pointer;
 }
 li:hover {
-  border: 0px solid rgba(187, 23, 23, 0.287);
-  transform: scale(1.5);
+  transform: rotate(-5deg);
   box-shadow: 0px 5px 15px rgba(248, 247, 247, 0.6);
 }
-
+li:active {
+  position: relative;
+  top: 20px;
+  box-shadow: none;
+}

@@ -1,6 +1,6 @@
 const LinksSocialMedia = {
   github: 'rafaelam-santos',
-  youtube: '',
+  linkedin: 'rafaela-moreira-dos-santos-bb578b214',
   facebook: 'rafaela.moreira.1447',
   instagram: 'rafam_santos',
   twitter: 'rafaela09622876'
